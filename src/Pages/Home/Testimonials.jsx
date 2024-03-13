@@ -7,8 +7,8 @@ function Testimonial() {
     <section className="testimonial-section" id="testimonial">
       <div className="portfolio-container-box">
         <div className="portfolio-container">
-          <p className="sub-title">Clients Feedback</p>
-          <h2 className="sections-heading">Customer Feedback</h2>
+          <p className="sub-title">My Love</p>
+          <h2 className="sections-heading">Most Interested and Effectively learned concepts</h2>
         </div>
       </div>
 

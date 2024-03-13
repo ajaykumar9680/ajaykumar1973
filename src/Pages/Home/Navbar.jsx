@@ -106,9 +106,18 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <NavLink to="/resume" className="navbar-content" onClick={closeMenu}>
+          <Link
+              onClick={closeMenu}
+              activeClass="navbar-active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Resume"
+              className="navbar-content"
+            >
               Resume
-            </NavLink>
+            </Link>
           </li>
         </ul>
       </div>

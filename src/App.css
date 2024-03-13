@@ -141,7 +141,7 @@ h2 {
   align-items: flex-start;
 }
 /* Portfolio, Testimonial & Contact Me */
-.sub--title {
+.sub-title {
   color: var(--heading-color);
   font-size: 16px;
   font-weight: 600;
@@ -212,7 +212,7 @@ h2 {
   .btn-outline-primary {
     display: none;
   }
-  .hero--section {
+  .hero-section {
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 70px;
@@ -223,7 +223,7 @@ h2 {
     text-align: center;
   }
   .skills-section-container,
-  .about--section,
+  .about-section,
   .portfolio-section-container,
   .portfolio-container-box,
   .footer-link-container,
@@ -263,7 +263,7 @@ h2 {
     font-size: 35px;
     line-height: 40px;
   }
-  .hero-section-content--box {
+  .hero-section-content-box {
     gap: 10px;
   }
   .contact-form-container {

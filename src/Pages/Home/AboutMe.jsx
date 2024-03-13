@@ -22,7 +22,7 @@ const aboutSection = () => {
         </div>
       </div>
       <div className="video-container">
-        <video width="500px" height="auto" autoplay controls disablePictureInPicture>
+        <video width="500px" height="auto" autoPlay controls disablePictureInPicture>
           <source src="./videos/tech1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>

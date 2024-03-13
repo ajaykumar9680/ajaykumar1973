@@ -21,6 +21,7 @@ export default function Home() {
 }*/
 
 import AboutMe from "../AboutMe";
+import Resume from "../resume";
 import ContactMe from "../ContactMe";
 import EducationSection from "../EducationSection";
 import Footer from "../Footer";
@@ -43,6 +44,7 @@ export default function Home() {
       <WorkExperience />
       <HonorsAwards />
       <MyPortfolio />
+      <Resume />
       <Testimonial />
       <ContactMe />
       <Footer />

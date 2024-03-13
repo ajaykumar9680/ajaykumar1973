@@ -1,12 +1,19 @@
+.resume-section{
+  background: linear-gradient(90.21deg, #51aa36 -5.91%, #bd2f90 111.58%);
+  padding: 50px 25px; /* Adjust padding */
+}
+.resume-heading{
+  margin-bottom: 20px;
+}
 .resume-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 50px;
+  gap: 30px;
 }
 
 .resume-item {
-  border: 1px solid #ccc;
-  padding: 200px;
+  border: 1px solid #430ed7;
+  padding: 20px;
   cursor: pointer;
 }
 
@@ -16,6 +23,13 @@
 }
 
 .resume-item img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
+}
+
+/* For larger screens, display 3 PDFs per row */
+@media screen and (min-width: 768px) {
+  .resume-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
