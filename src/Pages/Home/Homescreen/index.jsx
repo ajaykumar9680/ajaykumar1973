@@ -35,7 +35,7 @@ import WorkExperience from "../WorkExperience";
 export default function Home() {
   return (
     <>
-      <HeroSection />\
+      <HeroSection />
       <AboutMe />
       <MySkills />
       

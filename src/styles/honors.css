@@ -1,45 +1,90 @@
 /* honors.css */
 .honors-awards {
-    padding: 60px 0;
+  padding: 60px 0; /* Adjust padding */
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+
+  align-items: center; /* Center items horizontally */
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.honors-awards-list {
+  background-color: #60f525; /* Add background color to each job entry */
+  padding: 24px; /* Add padding to each job entry */
+  border-radius: 80px; /* Add border radius */
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  height: 150px;
+  align-items: center; /* Center items horizontally */
+
+}
+
+.honors-awards-item {
+  font-size: 50px;
+  color: #333;
+  margin-right: 50px;
+  white-space: wrap;
+  opacity: 0;
+  transition: all 0.3s ease;
+  animation: scroll 10s linear infinite; /* Adjust duration and timing as needed */
+  text-align: center; /* Center text */
+}
+
+.honors-awards-item:before {
+   /* Bullet character */
+  color: #ff7f00; /* Bullet color */
+  font-weight: bold;
+  display: inline-block;
+  width: 4em;
+  margin-left: -1em;
+}
+
+.honors-awards-item:hover {
+  transform: translateX(5px);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+    opacity: 1;
   }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
+  100% {
+    transform: translateX(-100%);
+    opacity: 1;
   }
-  
-  .section-heading {
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .honors-awards-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .honors-awards-item {
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 15px;
-    position: relative;
-    transition: all 0.3s ease;
-  }
-  
-  .honors-awards-item:before {
-    content: '\2022'; /* Bullet character */
-    color: #ff7f00; /* Bullet color */
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-  }
-  
-  .honors-awards-item:hover {
-    transform: translateX(5px);
-  }
-  
-  
+}
+ /* Adjust animation delay for each item */
+.honors-awards-item:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.honors-awards-item:nth-child(2) {
+  animation-delay: 1s; /* Adjust delay as needed */
+}
+
+.honors-awards-item:nth-child(3) {
+  animation-delay: 2s; /* Adjust delay as needed */
+}
+
+.honors-awards-item:nth-child(4) {
+  animation-delay: 15s; /* Adjust delay as needed */
+}

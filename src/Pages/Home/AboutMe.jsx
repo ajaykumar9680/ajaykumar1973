@@ -1,24 +1,34 @@
-import React from "react";
 import "../../styles/about.css";
+import React from "react";
 
-function AboutMe() {
+const aboutSection = () => {
   return (
     <section id="AboutMe" className="about-section">
-      <form>
-      <div className="about-section-content">
-        <img src="/img/about-me.png" alt="About Me" className="about-section-img" />
-        <div className="circle-container">
-          <div className="circle">Web Developer</div>
-          <div className="circle">Passionate Coder</div>
-          <div className="circle">Tech Enthusiast</div>
-          <div className="circle">Problem Solver</div>
-          <div className="circle">UX Designer</div>
-          <div className="circle">Creative Thinker</div>
+      <div className="about-section-content-box">
+      <h2 className="skills-section--heading">About Me</h2>
+
+        <div className="about-section-content">
+        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+        </div>
+        <div className="about-section-img">
+          <img src="./img/hero_img.png" alt="about Section" />
+        </div>
+        <div className="about-section-content">
+        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
         </div>
       </div>
-      </form>
+      <div className="video-container">
+        <video width="500px" height="auto" autoplay controls disablePictureInPicture>
+          <source src="./videos/tech1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </section>
   );
 }
 
-export default AboutMe;
+export default aboutSection;
