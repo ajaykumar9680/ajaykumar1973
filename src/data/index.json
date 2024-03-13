@@ -1,0 +1,130 @@
+{
+  "aboutMe": {
+    "title": "About Me",
+    "description": "Resourceful graduate, blending academic expertise with practical experience to engineer innovative solutions. Proficient in software development and communication for successful, professional projects."
+  },
+  "contactMe": {
+    "title": "Contact Me",
+    "email": "ajaykumar.medikonda@slu.edu",
+    "phone": "314-393-7423"
+  },
+  "education": {
+    "title": "Education",
+    "degrees": [
+      {
+        "university": "Saint Louis University",
+        "location": "St Louis, MO",
+        "degree": "Master of Science in Computer Science",
+        "graduation": "Expected by May 2025",
+        "gpa": "3.43 / 4.0"
+      },
+      
+      {
+        "university": "Lakireddy Bali Reddy College of Engineering",
+        "location": "Andhra Pradesh, India",
+        "degree": "Undergraduate in Computer Science and Engineering",
+        "graduation": "May 2023",
+        "gpa": "8.8 / 10.0"
+      }
+    ]
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "experiences": [
+      {
+        "position": "Salesforce Developer",
+        "company": "Virtual Intern",
+        "duration": "July 2022 – Dec 2022",
+        "responsibilities": [
+          "Created a new Salesforce workflow that automated a manual process.",
+          "Completed several hands-on projects and became familiar with the Salesforce platform and its services."
+        ]
+      },
+      {
+        "position": "AWS Cloud Virtual Intern",
+        "company": "Offered by AICTE",
+        "duration": "Oct 2021 – Dec 2021",
+        "responsibilities": [
+          "Learned about a new AWS service and used it to solve a real-world problem.",
+          "Built a cloud-based application that utilized multiple AWS services."
+        ]
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Proficient in front-end technologies such as HTML, CSS, and JavaScript. Experienced in building responsive and user-friendly interfaces."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Skilled in back-end development with expertise in technologies like Node.js, Express.js, and MongoDB. Capable of designing and implementing scalable server-side solutions."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Experienced in designing intuitive and visually appealing user interfaces. Proficient in user experience principles and tools like Adobe XD and Figma."
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": "Skilled in developing websites using Webflow, a no-code platform. Proficient in customizing templates and optimizing web performance."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Integration of Protective Measures and the Generation of Cancelable Biometric Templates",
+      "description": "Published paper in IEEE Explorer on novel biometric template protection, introducing two innovative methods. Evaluated facial recognition data, demonstrating strong performance in recognition rate, computation time, and confidentiality.",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "Aadhar Thumb Platform for all money services",
+      "description": "Developed a secure biometric authentication website using fingerprint recognition, facilitating seamless financial transactions for individuals with Aadhaar Numbers. Improved security and reduced transaction times, providing a reliable and convenient financial services solution.",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Memory Master: Java-based Multi-Level Memory Game",
+      "description": "Designed and implemented a Java-based Memory game with multiple levels in a Software Design course, showcasing expertise in Java, object-oriented design, and GUI development using Swing/JavaFX.",
+      "link": "View In Github"
+    }
+    
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Ajay Kumar Medikonda is a highly skilled developer with a strong understanding of software engineering principles. He delivered exceptional results and exceeded our expectations.",
+      "author_name": "Vinay",
+      "author_designation": "Manager, Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "I had the pleasure of working with Ajay Kumar Medikonda on a complex project. His technical expertise and dedication to quality were evident throughout the development process.",
+      "author_name": "Karthik",
+      "author_designation": "Lead Developer, Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Ajay Kumar Medikonda is a valuable asset to any team. His professionalism, communication skills, and ability to adapt make him a standout developer.",
+      "author_name": "Venky",
+      "author_designation": "Senior Engineer, McDonald's"
+    }
+  ]
+}

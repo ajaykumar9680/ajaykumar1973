@@ -1,0 +1,45 @@
+/* honors.css */
+.honors-awards {
+    padding: 60px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .section-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .honors-awards-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .honors-awards-item {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .honors-awards-item:before {
+    content: '\2022'; /* Bullet character */
+    color: #ff7f00; /* Bullet color */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .honors-awards-item:hover {
+    transform: translateX(5px);
+  }
+  
+  

@@ -1,0 +1,67 @@
+/* education.css */
+.education-section {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /*padding: 60px 0 200px 0;*/
+    display: flex;
+    padding: 50px 25px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    gap: 64px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Adjust the minimum and maximum width of each grid item */
+    gap: 32px; /* Adjust the gap between grid items */
+
+  }
+  
+  .section-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .education-content {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, auto);
+
+  }
+  
+  .education-item {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .education-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-item-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .education-item-university {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .education-item-date,
+  .education-item-gpa {
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
