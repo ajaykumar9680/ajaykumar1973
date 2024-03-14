@@ -82,7 +82,7 @@ const Footer = () => {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/medikonda.ajaykumar.9/"
                 className="navbar-content"
                 target="_blank"
                 rel="noreferrer"
@@ -103,7 +103,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/medikonda_ajaykumar/"
                 className="navbar-content"
                 target="_blank"
                 rel="noreferrer"
@@ -147,7 +147,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/ajaykumar1973/"
                 className="navbar-content"
                 target="_blank"
                 rel="noreferrer"

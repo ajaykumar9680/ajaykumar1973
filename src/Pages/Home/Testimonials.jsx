@@ -1,24 +1,21 @@
-import React from "react";
 import data from "../../data/index.json";
 import "../../styles/testimonials.css";
 
-function Testimonial() {
+export default function Testimonial() {
   return (
     <section className="testimonial-section" id="testimonial">
       <div className="portfolio-container-box">
         <div className="portfolio-container">
-          <p className="sub-title">My Love</p>
-          <h2 className="sections-heading">Most Interested and Effectively learned concepts</h2>
+          <p className="sub-title">My Lovings</p>
+          <h2 className="sections-heading">Most  intrested and experienced concepts</h2>
         </div>
       </div>
-
-      <div className="testimonial-section-container">
+      <div className="portfolio-section-container">
         {data?.testimonial?.map((item, index) => (
           <div key={index} className="testimonial-section-card">
             <div className="testimonial-section-card-review">
-              {Array.from({ length: 5 }, (_, reviewIndex) => (
+              {Array.from({ length: 5 }, (reviews, index) => (
                 <svg
-                  key={reviewIndex}
                   xmlns="http://www.w3.org/2000/svg"
                   width="27"
                   height="26"
@@ -34,10 +31,14 @@ function Testimonial() {
             </div>
             <p className="text-md">{item.description}</p>
             <div className="testimonial-section-card-author-detail">
-              <img src={item.src} alt="Avatar" className="testimonial-avatar" />
+              <img src={item.src} alt="Avatar" />
               <div>
-                <p className="text-md testimonial-author-name">{item.author_name}</p>
-                <p className="text-md testimonial-author-designation">{item.author_designation}</p>
+                <p className="text-md testimonial-author-name">
+                  {item.author_name}
+                </p>
+                <p className="text-md testimonial-author-designation">
+                  {item.author_designation}
+                </p>
               </div>
             </div>
           </div>
@@ -46,5 +47,3 @@ function Testimonial() {
     </section>
   );
 }
-
-export default Testimonial;

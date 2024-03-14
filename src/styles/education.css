@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.container {
+.econtainer {
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minimum and maximum width of each grid item */

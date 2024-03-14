@@ -1,24 +1,23 @@
-import "../../styles/about.css";
 import React from "react";
+import "../../styles/about.css";
 
-const aboutSection = () => {
+const AboutSection = () => {
   return (
     <section id="AboutMe" className="about-section">
       <div className="about-section-content-box">
-      <h2 className="skills-section--heading">About Me</h2>
-
+        <h2 className="skills-section-heading">About Me</h2>
         <div className="about-section-content">
-        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
-        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
-        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+          <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+          <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+          <a href="#Contact" className="btn btn-primar">Get In Touch</a>
         </div>
         <div className="about-section-img">
           <img src="./img/hero_img.png" alt="about Section" />
         </div>
         <div className="about-section-content">
-        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
-        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
-        <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+          <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+          <a href="#Contact" className="btn btn-primar">Get In Touch</a>
+          <a href="#Contact" className="btn btn-primar">Get In Touch</a>
         </div>
       </div>
       <div className="video-container">
@@ -31,4 +30,4 @@ const aboutSection = () => {
   );
 }
 
-export default aboutSection;
+export default AboutSection;

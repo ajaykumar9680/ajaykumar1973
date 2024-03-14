@@ -119,7 +119,11 @@ function ContactMe() {
           </form>
         </div>
       </div>
-      <div className="contact-image"></div>
+      <div className="about-contact-image">
+      <div className="about-section-img">
+        <img src="./img/hero_img.png" alt="Hero Section" />
+      </div>
+      </div>
     </section>
   );
 }
