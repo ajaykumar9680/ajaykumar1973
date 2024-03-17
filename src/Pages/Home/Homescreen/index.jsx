@@ -38,12 +38,11 @@ export default function Home() {
     <>
       <HeroSection />
       <AboutMe />
-      <MySkills />
-      
       <EducationSection />
+      <MySkills />
       <WorkExperience />
-      <HonorsAwards />
       <MyPortfolio />
+      <HonorsAwards />
       <Resume />
       <Testimonial />
       <ContactMe />

@@ -11,7 +11,7 @@ const MyPortfolio = () => {
           <h2 className="section-heading">My Portfolio</h2>
         </div>
         <div>
-          <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" className="btn btn-github">
+          <a href="https://github.com/ajaykumar9680" target="_blank" rel="noopener noreferrer" className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -41,7 +41,7 @@ const MyPortfolio = () => {
                 <h3 className="portfolio-section-title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <a href={item.link} target="_blank" rel="noopener noreferrer" className="text-sm portfolio-link">
+              <a href={item.source} target="_blank" rel="noopener noreferrer" className="text-sm portfolio-link">
                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

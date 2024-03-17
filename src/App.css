@@ -131,7 +131,7 @@ h3 {
 /* Section Titles */
 /* Skills & About Me */
 .section-title {
-  color: var(--heading-color);
+  color: rgb(7, 236, 167);
   font-size: 21px;
   text-align: center;
   font-style: normal;

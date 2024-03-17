@@ -17,6 +17,10 @@
 .honors-container{
   text-align: center;
 }
+.owl-carousel .item img {
+  max-width: 100px; /* Adjust this value as needed */
+  max-height: 100px; /* Adjust this value as needed */
+}
 
 
 .honors-awards-list {

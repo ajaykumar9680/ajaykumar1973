@@ -55,25 +55,101 @@
     {
       "id": "1",
       "src": "./img/product-chain-1.png",
-      "title": "Front-End",
+      "title": "Programming Languages",
+        "skill": [
+          {
+            "name": "Python",
+            "description": "Experienced in developing applications, scripts, and data analysis tools using Python, leveraging libraries such as NumPy, Pandas, and Matplotlib."
+          },
+          {
+            "name": "Java",
+            "description": "Advanced proficiency in Java programming language, with experience in developing complex algorithms, data structures, and multi-threaded applications."
+          },
+          {
+            "name": "C",
+            "description": "Advanced proficiency in C programming language, with experience in developing system-level software and efficient algorithms."
+          }
+        ],
       "description": "Proficient in front-end technologies such as HTML, CSS, and JavaScript. Experienced in building responsive and user-friendly interfaces."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
-      "title": "Back-End",
+      "title": "Technical Skills",
+        "skill": [
+          {
+            "name": "Data Structures and Algorithms",
+            "description": "Strong understanding and implementation skills in various data structures and algorithms, essential for efficient problem-solving and software development."
+          },
+          {
+            "name": "Object-Oriented Programming (OOP)",
+            "description": "Extensive experience in designing and implementing object-oriented solutions, emphasizing code reusability, modularity, and maintainability."
+          },
+          {
+            "name": "Web Development",
+            "description": "Proficient in web development technologies including HTML, CSS, JavaScript, and frameworks such as Flask and Django for building dynamic web applications."
+          },
+          {
+            "name": "Software Design",
+            "description": "Skilled in software design principles and patterns, capable of architecting scalable, maintainable, and extensible software solutions."
+          },
+          {
+            "name": "Agile Methodology",
+            "description": "Familiar with Agile development practices, including Scrum and Kanban, enabling effective collaboration, iterative development, and continuous improvement."
+          }
+        ],
       "description": "Skilled in back-end development with expertise in technologies like Node.js, Express.js, and MongoDB. Capable of designing and implementing scalable server-side solutions."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
+      "title": "Data Science Skills",
+        "skill": [
+          {
+            "name": "Machine Learning",
+            "description": "Proficient in machine learning techniques, including supervised and unsupervised learning, regression, classification, and clustering algorithms."
+          },
+          {
+            "name": "Natural Language Processing (NLP)",
+            "description": "Experienced in NLP tasks such as text classification, sentiment analysis, named entity recognition, and topic modeling using libraries like NLTK and spaCy."
+          },
+          {
+            "name": "Cloud Computing",
+            "description": "Knowledgeable in cloud computing concepts and platforms, particularly AWS services, for building scalable, reliable, and cost-effective cloud-based solutions."
+          },
+          {
+            "name": "Data Science",
+            "description": "Skilled in data preprocessing, exploratory data analysis, feature engineering, and model evaluation, utilizing tools like TensorFlow, scikit-learn, and PyTorch for predictive analytics and data-driven insights."
+          }
+        ],
       "description": "Experienced in designing intuitive and visually appealing user interfaces. Proficient in user experience principles and tools like Adobe XD and Figma."
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
+      "title": "Soft Skills",
+        "skill": [
+          {
+            "name": "Communication",
+            "description": "Excellent verbal and written communication skills, adept at conveying complex technical concepts to diverse audiences effectively."
+          },
+          {
+            "name": "Teamwork",
+            "description": "Collaborative team player with a proven track record of contributing positively to team dynamics, fostering cooperation, and achieving common goals."
+          },
+          {
+            "name": "Problem-Solving",
+            "description": "Strong analytical and problem-solving abilities, capable of identifying root causes, evaluating alternative solutions, and making sound decisions under pressure."
+          },
+          {
+            "name": "Leadership",
+            "description": "Demonstrated leadership qualities, including decision-making, delegation, and motivating team members towards shared objectives."
+          },
+          {
+            "name": "Time Management",
+            "description": "Efficient time management skills, adept at prioritizing tasks, meeting deadlines, and balancing multiple responsibilities effectively."
+          }
+        ],
       "description": "Skilled in developing websites using Webflow, a no-code platform. Proficient in customizing templates and optimizing web performance."
     }
   ],
@@ -83,48 +159,61 @@
       "src": "./img/placeholder-image.png",
       "title": "Integration of Protective Measures and the Generation of Cancelable Biometric Templates",
       "description": "Published paper in IEEE Explorer on novel biometric template protection, introducing two innovative methods. Evaluated facial recognition data, demonstrating strong performance in recognition rate, computation time, and confidentiality.",
-      "link": "View In Github"
+      "link": "View the pdf",
+      "source":"https://drive.google.com/file/d/1tAa6uZgqnt2GVRgIRpHYFLEHFrt4QFK6/view?usp=sharing"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
       "title": "Aadhar Thumb Platform for all money services",
       "description": "Developed a secure biometric authentication website using fingerprint recognition, facilitating seamless financial transactions for individuals with Aadhaar Numbers. Improved security and reduced transaction times, providing a reliable and convenient financial services solution.",
-      "link": "View In Github"
+      "link": "View the info",
+      "source":"https://www.geeksforgeeks.org/project-idea-aadhaar-thumb-platform-services/"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
       "title": "Memory Master: Java-based Multi-Level Memory Game",
       "description": "Designed and implemented a Java-based Memory game with multiple levels in a Software Design course, showcasing expertise in Java, object-oriented design, and GUI development using Swing/JavaFX.",
-      "link": "View In Github"
+      "link": "View in Github",
+      "source":"https://github.com/ajaykumar9680/Memory-Game-Project.git"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image.png",
+      "title": "Tesla Automatic Driver Assistance (ADAS)",
+      "description": "Analyzes ADAS and ML independently and then relates which ML technique is applicable to what ADAS component and why. The paper gives a good grasp of the current state-of-the-art. Sample works in supervised, unsupervised, deep, and reinforcement learning are presented; their strengths and rooms for improvements are also discussed. This forms part of the basics in understanding autonomous vehicle. This work is a contribution to the ongoing research in ML aimed at reducing road traffic accidents and fatalities and the invocation of safe driving.",
+      "link": "View the pdf",
+      "source": "https://drive.google.com/file/d/1QFtSHQ6iyTZyLRrLsYszb2cyK9qjx5el/view"
     }
+    
     
   ],
   "testimonial": [
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Ajay Kumar Medikonda is a highly skilled developer with a strong understanding of software engineering principles. He delivered exceptional results and exceeded our expectations.",
-      "author_name": "Vinay",
-      "author_designation": "Manager, Starbucks"
+      "src": "./img/javapython.jpg",
+      "description": "I have highly expertized knowledge in both Python and Java. Throughout my academic and professional journey, I have delved deep into various topics, including data structures, algorithms, object-oriented programming, web development, and software design. I have applied this knowledge in real-world projects, demonstrating exceptional problem-solving skills and receiving high appreciation from professors for my dedication and expertise.",
+      "topic": "Python and Java Programming",
+      "excellence": "Got high appreciation from professors"
     },
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "I had the pleasure of working with Ajay Kumar Medikonda on a complex project. His technical expertise and dedication to quality were evident throughout the development process.",
-      "author_name": "Karthik",
-      "author_designation": "Lead Developer, Louis Vuitton"
+      "src": "./img/cg.jpeg",
+      "description": "In the field of computer graphics, I have showcased top-notch skills using JavaScript, OpenGL, and WebGL. I have extensively explored topics such as 3D rendering, shader programming, and interactive graphics. My projects have been recognized for their innovative approach and visually stunning output, reflecting my deep understanding and proficiency in computer graphics.",
+      "topic": "Computer Graphics using JavaScript, OpenGL, WebGL",
+      "excellence": "Showed top-notch skills"
     },
     {
       "id": "3",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Ajay Kumar Medikonda is a valuable asset to any team. His professionalism, communication skills, and ability to adapt make him a standout developer.",
-      "author_name": "Venky",
-      "author_designation": "Senior Engineer, McDonald's"
+      "src": "./img/ml1.jpg",
+      "description": "My journey in machine learning has been marked by significant achievements and recognition. I have acquired highly expertized knowledge in understanding and implementing complex machine learning algorithms, including supervised and unsupervised learning, deep learning, and natural language processing. My dedication and hard work have led to high praise and recognition for my contributions to machine learning projects.",
+      "topic": "Machine Learning",
+      "excellence": "Got highly expertized"
     }
   ]
+  
 }

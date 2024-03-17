@@ -71,13 +71,55 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              to="educationSection"
               className="navbar-content"
             >
-              Portfolio
+              Education
             </Link>
           </li>
           <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar-active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="mySkills"
+              className="navbar-content"
+            >
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar-active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="workExperience"
+              className="navbar-content"
+            >
+              Work Experience
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar-active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="MyPortfolio"
+              className="navbar-content"
+            >
+              Projects
+            </Link>
+          </li>
+          {/*<li>
             <Link
               onClick={closeMenu}
               activeClass="navbar-active-content"
@@ -90,8 +132,8 @@ function Navbar() {
             >
               About Me
             </Link>
-          </li>
-          <li>
+          </li>*/}
+          {/*<li>
             <Link
               onClick={closeMenu}
               activeClass="navbar-active-content"
@@ -104,7 +146,7 @@ function Navbar() {
             >
               Testimonials
             </Link>
-          </li>
+          </li>*/}
           <li>
           <Link
               onClick={closeMenu}

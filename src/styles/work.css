@@ -19,14 +19,14 @@
 
 .job {
   background-color: #f5f5f5; /* Add background color to each job entry */
-  padding: 24px; /* Add padding to each job entry */
+  padding: 18px; /* Add padding to each job entry */
   border-radius: 8px; /* Add border radius */
 }
 
 .job-title {
   color: var(--heading-color);
   font-size: 24px; /* Adjust the font size for job title */
-  font-weight: 600; /* Adjust the font weight for job title */
+  font-weight: 60; /* Adjust the font weight for job title */
   margin-bottom: 10px; /* Add margin bottom */
 }
 
@@ -43,6 +43,7 @@
   font-weight: 400; /* Adjust the font weight for job responsibilities */
   line-height: 1.5; /* Adjust line height for job responsibilities */
   padding-left: 24px; /* Add padding-left for indentation */
+  list-style-type: none;
 }
 
 /* Media Query for Responsive Design */

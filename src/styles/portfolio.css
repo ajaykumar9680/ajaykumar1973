@@ -20,15 +20,15 @@
     gap: 21.3px;
   }
   .portfolio-section-container {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     gap: 42.6px;
     width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minimum and maximum width of each grid item */
   }
   .portfolio-section-img {
     border-radius: 8px;
-    width: 100%;
   }
   .portfolio-section-img > img {
     width: 100%;
