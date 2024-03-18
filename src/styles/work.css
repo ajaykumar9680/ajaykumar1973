@@ -19,7 +19,7 @@
 
 .job {
   background-color: #f5f5f5; /* Add background color to each job entry */
-  padding: 18px; /* Add padding to each job entry */
+  padding: 24px; /* Add padding to each job entry */
   border-radius: 8px; /* Add border radius */
 }
 
