@@ -1,0 +1,54 @@
+/* Work Experience Section Style */
+.work-experience {
+  background: linear-gradient(90.21deg, #10d838 -5.91%, #4A2FBD 111.58%);
+  padding: 50px 25px; /* Adjust padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center;
+  gap: 20px; /* Adjust the gap between elements */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minimum and maximum width of each grid item */
+  gap: 20px; /* Adjust the gap between grid items */
+  align-items: center;
+}
+
+.job {
+  background-color: #f5f5f5; /* Add background color to each job entry */
+  padding: 24px; /* Add padding to each job entry */
+  border-radius: 8px; /* Add border radius */
+}
+
+.job-title {
+  color: var(--heading-color);
+  font-size: 24px; /* Adjust the font size for job title */
+  font-weight: 60; /* Adjust the font weight for job title */
+  margin-bottom: 10px; /* Add margin bottom */
+}
+
+.job-duration {
+  color: var(--gray); /* Adjust color for job duration */
+  font-size: 16px; /* Adjust the font size for job duration */
+  margin-bottom: 10px; /* Add margin bottom */
+}
+
+.job-responsibilities {
+  list-style-type: square; /* Use square bullet points */
+  color: var(--black); /* Adjust color for job responsibilities */
+  font-size: 16px; /* Adjust the font size for job responsibilities */
+  font-weight: 400; /* Adjust the font weight for job responsibilities */
+  line-height: 1.5; /* Adjust line height for job responsibilities */
+  padding-left: 24px; /* Add padding-left for indentation */
+  list-style-type: none;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* Adjust to single column layout on smaller screens */
+  }
+}

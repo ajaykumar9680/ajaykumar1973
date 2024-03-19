@@ -1,0 +1,43 @@
+.honor-slider {
+  width: auto;
+  margin: 0 auto;
+  /*position: relative;*/
+}
+.honor-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+/* honors.css */
+.honors-awards {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  align-items: center; /* Center items horizontally */
+  padding: 50px 45px;
+  gap: 64px;
+}
+.honors-container{
+  text-align: center;
+}
+.owl-carousel .item img {
+  max-width: 100px; /* Adjust this value as needed */
+  max-height: 100px; /* Adjust this value as needed */
+}
+
+
+.honors-awards-list {
+  /*background-color: #60f525;  Add background color to each job entry */
+   /* Add padding to each job entry */
+   background: rgb(65, 129, 139);
+  border-radius: 64px; /* Add border radius */
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+  padding: 60px 50px;
+
+}
+
+.honors-awards-item {
+  font-size: 10px;
+  margin-right: 50px;
+  text-align: center; /* Center text */
+}

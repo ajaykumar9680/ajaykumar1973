@@ -1,0 +1,134 @@
+.skills-section {
+  background: linear-gradient(90.21deg, #51aa36 -5.91%, #bd2f90 111.58%);
+  padding: 40.33px 55.33px;
+  display: flex;
+  flex-direction: column;
+  gap: 40.667px;
+  align-items: center; /* Center horizontally */
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  gap: 21.3px;
+}
+
+.skills-section-heading {
+  color: var(--heading-color);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2; /* Adjust line height as needed */
+}
+
+.skills-section-part {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 30px;
+  align-items: center;
+}
+
+.skills-section-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+}
+
+.skills-section-card {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 10.6px;
+  /*background: var(--bg-shade);*/
+  background: linear-gradient(40.21deg, #38c8f0 -5.91%, #f74cc9 111.58%);
+  min-height: 250px;
+}
+
+.skills-section-card:hover {
+  border-bottom: 4px solid var(--primary);
+}
+
+.skills-section-card:hover .skills-section-description {
+  color: var(--darkblue);
+}
+.ajay-button {
+  margin: 10px;
+  padding: 10px 10px; /* Increase button size */
+  border-radius: 20px; /* Add curved edges */
+  background-color: rgb(204,255,204); /* Set custom button color */
+  color: #43453d; /* Set text color to white */
+  font-size: 18px; /* Increase font size */
+  font-weight: bold; /* Set font weight to bold */
+  /*border: none;  Remove border */
+  cursor: pointer; /* Add cursor pointer */
+  transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+.ajay-button:hover {
+  background-color: #e74c3c; /* Change button color on hover */
+}
+
+.skills-section-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13.3px;
+  border-radius: 10.6px;
+  background: #fff;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.skills-section-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  gap: 32px;
+  align-self: stretch;
+}
+
+.skills-section-title {
+  color: var(--heading-color);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.skills-section-describe {
+  color: var(--black);
+  font-size: 21.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  align-items: center;
+}
+/*.skills-section-describe{
+  align-items: center;
+  text-align: center;
+}*/
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .skills-section {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .portfolio-container {
+    gap: 15px; /* Adjust gap for smaller screens */
+  }
+
+  .skills-section-part {
+    grid-template-columns: 1fr; /* Adjust column layout for smaller screens */
+  }
+
+  .skills-section-container {
+    grid-template-columns: 1fr; /* Adjust column layout for smaller screens */
+  }
+
+  .skills-section-card {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+}

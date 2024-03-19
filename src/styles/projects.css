@@ -1,0 +1,32 @@
+/* Projects Section Style */
+.projects {
+    padding: 64px 32px; /* Adjust padding as needed */
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minimum and maximum width of each grid item */
+    gap: 32px; /* Adjust the gap between grid items */
+  }
+  
+  .project {
+    background-color: #f9f9f9; /* Add background color to each project entry */
+    padding: 24px; /* Add padding to each project entry */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  .project-title {
+    color: #333; /* Adjust color for project title */
+    font-size: 24px; /* Adjust the font size for project title */
+    font-weight: 600; /* Adjust the font weight for project title */
+    margin-bottom: 12px; /* Adjust margin bottom as needed */
+  }
+  
+  .project-description {
+    color: #666; /* Adjust color for project description */
+    font-size: 16px; /* Adjust the font size for project description */
+    line-height: 1.5; /* Adjust line height for project description */
+  }
+  /* Projects Section Style Ends */
+  
