@@ -12,6 +12,7 @@ function App() {
       <Router>
         <div>
           <Navbar />
+          <p>ghvghcjcjhcjg</p>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/resume" element={<Resume />} /> {/* Add this route */}
