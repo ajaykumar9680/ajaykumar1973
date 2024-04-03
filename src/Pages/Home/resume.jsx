@@ -27,7 +27,7 @@ const Resume = () => {
                         className="resume-item">
                         
                         <div className="resume-pdf-icon" onClick={() => handlePdfIconClick(resume.pdfUrl)}>
-                            <img src="../img/pdficon1.png" alt="Click on this to see Document" />
+                            <img src={process.env.PUBLIC_URL +"/img/pdficon1.png"} alt="Click on this to see Document" />
                         </div> {/* PDF icon */}
                         <h3>{resume.name}</h3>
                     </div>

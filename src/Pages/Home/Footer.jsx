@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer-container">
       <div className="footer-link-container">
         <div>
-          <img src="./img/logo.svg" alt="Ajay Kumar" />
+          <img src={process.env.PUBLIC_URL +"/img/logo.svg"} alt="Ajay Kumar" />
         </div>
         <div className="footer-items">
           <ul>

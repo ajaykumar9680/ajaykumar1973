@@ -31,7 +31,7 @@ export default function Testimonial() {
             </div>
             <p className="text-md">{item.description}</p>
             <div className="testimonial-section-card-author-detail">
-              <img src={item.src} alt="Avatar" className="text-md testimonial-author-img"/>
+              <img src={process.env.PUBLIC_URL + item.src} alt="Avatar" className="text-md testimonial-author-img"/>
               <div>
                 <p className="text-md testimonial-author-name">
                   {item.topic}

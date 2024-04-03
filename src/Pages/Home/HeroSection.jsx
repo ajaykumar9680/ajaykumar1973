@@ -18,7 +18,7 @@ const HeroSection = () => {
         <a href="#Contact" className="btn btn-primary">Get In Touch</a>
       </div>
       <div className="hero-section-img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src={process.env.PUBLIC_URL + '/img/hero_img.png'} alt="Hero Section" />
       </div>
     </section>
   );

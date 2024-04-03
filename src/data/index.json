@@ -156,7 +156,7 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
+      "src": "/img/placeholder-image.png",
       "title": "Integration of Protective Measures and the Generation of Cancelable Biometric Templates",
       "description": "Published paper in IEEE Explorer on novel biometric template protection, introducing two innovative methods. Evaluated facial recognition data, demonstrating strong performance in recognition rate, computation time, and confidentiality.",
       "link": "View the pdf",
@@ -164,7 +164,7 @@
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
+      "src": "/img/placeholder-image-1.png",
       "title": "Aadhar Thumb Platform for all money services",
       "description": "Developed a secure biometric authentication website using fingerprint recognition, facilitating seamless financial transactions for individuals with Aadhaar Numbers. Improved security and reduced transaction times, providing a reliable and convenient financial services solution.",
       "link": "View the info",
@@ -172,7 +172,7 @@
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
+      "src": "/img/placeholder-image-2.png",
       "title": "Memory Master: Java-based Multi-Level Memory Game",
       "description": "Designed and implemented a Java-based Memory game with multiple levels in a Software Design course, showcasing expertise in Java, object-oriented design, and GUI development using Swing/JavaFX.",
       "link": "View in Github",
@@ -180,7 +180,7 @@
     },
     {
       "id": "4",
-      "src": "./img/placeholder-image.png",
+      "src": "/img/placeholder-image.png",
       "title": "Tesla Automatic Driver Assistance (ADAS)",
       "description": "Analyzes ADAS and ML independently and then relates which ML technique is applicable to what ADAS component and why. The paper gives a good grasp of the current state-of-the-art. Sample works in supervised, unsupervised, deep, and reinforcement learning are presented; their strengths and rooms for improvements are also discussed. This forms part of the basics in understanding autonomous vehicle. This work is a contribution to the ongoing research in ML aimed at reducing road traffic accidents and fatalities and the invocation of safe driving.",
       "link": "View the pdf",
@@ -193,7 +193,7 @@
     {
       "id": "1",
       "count": "5",
-      "src": "./img/javapython.jpg",
+      "src": "/img/javapython.jpg",
       "description": "I have highly expertized knowledge in both Python and Java. Throughout my academic and professional journey, I have delved deep into various topics, including data structures, algorithms, object-oriented programming, web development, and software design. I have applied this knowledge in real-world projects, demonstrating exceptional problem-solving skills and receiving high appreciation from professors for my dedication and expertise.",
       "topic": "Python and Java Programming",
       "excellence": "Got high appreciation from professors"
@@ -201,7 +201,7 @@
     {
       "id": "2",
       "count": "5",
-      "src": "./img/cg.jpeg",
+      "src": "/img/cg.jpeg",
       "description": "In the field of computer graphics, I have showcased top-notch skills using JavaScript, OpenGL, and WebGL. I have extensively explored topics such as 3D rendering, shader programming, and interactive graphics. My projects have been recognized for their innovative approach and visually stunning output, reflecting my deep understanding and proficiency in computer graphics.",
       "topic": "Computer Graphics using JavaScript, OpenGL, WebGL",
       "excellence": "Showed top-notch skills"
@@ -209,7 +209,7 @@
     {
       "id": "3",
       "count": "5",
-      "src": "./img/ml1.jpg",
+      "src": "/img/ml1.jpg",
       "description": "My journey in machine learning has been marked by significant achievements and recognition. I have acquired highly expertized knowledge in understanding and implementing complex machine learning algorithms, including supervised and unsupervised learning, deep learning, and natural language processing. My dedication and hard work have led to high praise and recognition for my contributions to machine learning projects.",
       "topic": "Machine Learning",
       "excellence": "Got highly expertized"

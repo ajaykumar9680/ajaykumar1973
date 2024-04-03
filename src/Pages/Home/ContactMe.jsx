@@ -121,7 +121,7 @@ function ContactMe() {
       </div>
       <div className="about-contact-image">
       <div className="about-section-img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src={process.env.PUBLIC_URL +"/img/hero_img.png"} alt="Hero Section" />
       </div>
       </div>
     </section>
