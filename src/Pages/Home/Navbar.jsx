@@ -118,9 +118,8 @@ function Navbar() {
               Projects
             </Link>
           </li>
-
           <li>
-          <Link
+            <Link
               onClick={closeMenu}
               activeClass="navbar-active-content"
               spy={true}

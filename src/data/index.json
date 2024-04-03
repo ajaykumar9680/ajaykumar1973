@@ -54,7 +54,7 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "src": "/img/product-chain-1.png",
       "title": "Programming Languages",
         "skill": [
           {
@@ -74,7 +74,7 @@
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
+      "src": "/img/tag-1.png",
       "title": "Technical Skills",
         "skill": [
           {
@@ -102,7 +102,7 @@
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
+      "src": "/img/feather-pen-2.png",
       "title": "Data Science Skills",
         "skill": [
           {
@@ -126,7 +126,7 @@
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
+      "src": "/img/feather-pen-1.png",
       "title": "Soft Skills",
         "skill": [
           {

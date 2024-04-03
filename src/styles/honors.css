@@ -3,6 +3,15 @@
   margin: 0 auto;
   /*position: relative;*/
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000; /* Ensure navbar is above other elements */
+  /* Add other styles as needed */
+}
 .honor-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
