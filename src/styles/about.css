@@ -34,6 +34,17 @@
   padding: 15px;
   border-radius: 10px;
 }
+.about-section-row-animate {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.about-section-row-animate.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 .about-section-row img {
   max-width: 50px;

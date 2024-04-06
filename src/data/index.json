@@ -68,6 +68,18 @@
           {
             "name": "C",
             "description": "Advanced proficiency in C programming language, with experience in developing system-level software and efficient algorithms."
+          },
+          {
+            "name": "JavaScript",
+            "description": "Advanced proficiency in Java Script language, with experience in developing Graphics and web pages."
+          },
+          {
+            "name": "MySql",
+            "description": "Advanced proficiency in sql language, with experience in developing datasets and analyzing them."
+          },
+          {
+            "name": "Object-Oriented Programming (OOP)",
+            "description": "Extensive experience in designing and implementing object-oriented solutions, emphasizing code reusability, modularity, and maintainability."
           }
         ],
       "description": "Proficient in front-end technologies such as HTML, CSS, and JavaScript. Experienced in building responsive and user-friendly interfaces."
@@ -81,10 +93,7 @@
             "name": "Data Structures and Algorithms",
             "description": "Strong understanding and implementation skills in various data structures and algorithms, essential for efficient problem-solving and software development."
           },
-          {
-            "name": "Object-Oriented Programming (OOP)",
-            "description": "Extensive experience in designing and implementing object-oriented solutions, emphasizing code reusability, modularity, and maintainability."
-          },
+          
           {
             "name": "Web Development",
             "description": "Proficient in web development technologies including HTML, CSS, JavaScript, and frameworks such as Flask and Django for building dynamic web applications."

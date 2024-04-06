@@ -5,7 +5,7 @@ import '../../styles/education.css';
 function EducationSection() {
   return (
     <section className="education-section" id="educationSection">
-      <h2 className="section-title1" text-align="left">{data.education.title}</h2>
+      <h2 className="section-heading" text-align="left">{data.education.title}</h2>
       <div className="econtainer">
         <div className="education-content">
           {data.education.degrees.map((degree, index) => (

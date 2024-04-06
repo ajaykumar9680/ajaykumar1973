@@ -8,9 +8,9 @@
     gap: 32px;
     background-color: var(--bg-shade);
     background-image: url('../assets/img/banner-bg.png');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .hero-section-content-box {
     display: flex;
@@ -29,25 +29,43 @@
   }
   .hero-section-title {
     color: var(--heading-color);
-    font-size: 74.667px;
+    font-size: 40.667px;
     font-weight: 700;
-    line-height: 90px;
+    
     align-self: stretch;
   }
   .hero-section-title-color {
     color: var(--primary);
   }
   .hero-section-description {
-    color: rgb(8, 231, 243);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
+    color: rgb(135, 15, 234);
+    font-size: 32px;
+    font-weight: 40;
+    line-height: 2dvb;
   }
   .hero-section-img {
-    display: flex;
+    border-radius: 30px; /* Adjust the border-radius value to control the curve */
+    overflow: hidden; /* Clip the image to the rounded borders */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box-shadow for depth */
+    height: auto;
   }
   .hero-section-img > img {
     width: 100%;
-    height: 100%;
+    display: block;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+     /* Position the image absolutely within the container */
+  top: 0; /* Align the image to the top */
+  left: 0; /* Align the image to the left */
+  animation: backAndForth 9s infinite alternate; /* Define the animation */
   }
   /* Hero Section Style Ends */
+  @keyframes backAndForth {
+    0% {
+      transform: scale(0.3); /* Initial position */
+    }
+    100% {
+      transform: scale(1); /* Final position (adjust distance as needed) */
+    }
+  }

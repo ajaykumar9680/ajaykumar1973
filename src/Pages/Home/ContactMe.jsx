@@ -19,11 +19,28 @@ function ContactMe() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Perform form submission logic here
-    console.log(formData);
+    try {
+      const response = await fetch('http://localhost:3000/submit-form', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        console.log('Email sent successfully');
+        // Optionally, you can reset the form here
+        // setFormData({ firstName: "", lastName: "", email: "", phoneNumber: "", message: "", acceptedTerms: false });
+      } else {
+        console.error('Failed to send email');
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
   };
+  
 
   return (
     <section id="Contact" className="contact-section">
@@ -121,7 +138,7 @@ function ContactMe() {
       </div>
       <div className="about-contact-image">
       <div className="about-section-img">
-        <img src={process.env.PUBLIC_URL +"/img/hero_img.png"} alt="Hero Section" />
+        <img src={process.env.PUBLIC_URL +"/img/ajay.jpg"} alt="Hero Section" />
       </div>
       </div>
     </section>
