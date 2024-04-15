@@ -2,12 +2,12 @@ import React from "react";
 import "../../styles/resume.css";
 
 const resumes = [
-    { id: 1, name: "Resume 1", pdfUrl: "https://drive.google.com/file/d/1U74yqdtxBJWvhhGHE6wB27zFdnujjLZS/view?usp=sharing" },
+    { id: 1, name: "Resume 1", pdfUrl: "https://drive.google.com/file/d/1q5Sn8lY7yDqqy92iaEAowYXxzuuTySuH/view?usp=sharing" },
     { id: 2, name: "Resume 2", pdfUrl: "https://drive.google.com/file/d/1U74yqdtxBJWvhhGHE6wB27zFdnujjLZS/view?usp=sharing" },
     // Add more resumes with their PDF URLs
-    { id: 3, name: "Resume 3", pdfUrl: "https://drive.google.com/file/d/1U74yqdtxBJWvhhGHE6wB27zFdnujjLZS/view?usp=sharing" },
-    { id: 4, name: "Resume 4", pdfUrl: "https://drive.google.com/file/d/1U74yqdtxBJWvhhGHE6wB27zFdnujjLZS/view?usp=sharing" },
-    { id: 5, name: "Resume 5", pdfUrl: "https://drive.google.com/file/d/1U74yqdtxBJWvhhGHE6wB27zFdnujjLZS/view?usp=sharing" },
+    //{ id: 3, name: "Resume 3", pdfUrl: "https://drive.google.com/file/d/1U74yqdtxBJWvhhGHE6wB27zFdnujjLZS/view?usp=sharing" },
+    //{ id: 4, name: "Resume 4", pdfUrl: "https://drive.google.com/file/d/1U74yqdtxBJWvhhGHE6wB27zFdnujjLZS/view?usp=sharing" },
+    //{ id: 5, name: "Resume 5", pdfUrl: "https://drive.google.com/file/d/1U74yqdtxBJWvhhGHE6wB27zFdnujjLZS/view?usp=sharing" },
 ];
 
 const Resume = () => {

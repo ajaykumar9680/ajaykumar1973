@@ -33,7 +33,7 @@
   gap: 32px;
   border-radius: 10.6px;
   /*background: var(--bg-shade);*/
-  background: linear-gradient(40.21deg, #38c8f0 -5.91%, #f74cc9 111.58%);
+  background: rgb(50, 231, 244);
   min-height: 250px;
 }
 

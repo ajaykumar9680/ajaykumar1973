@@ -165,7 +165,7 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "/img/placeholder-image.png",
+      "src": "/img/metrics.jpeg",
       "title": "Integration of Protective Measures and the Generation of Cancelable Biometric Templates",
       "description": "Published paper in IEEE Explorer on novel biometric template protection, introducing two innovative methods. Evaluated facial recognition data, demonstrating strong performance in recognition rate, computation time, and confidentiality.",
       "link": "View the pdf",
@@ -173,7 +173,7 @@
     },
     {
       "id": "2",
-      "src": "/img/placeholder-image-1.png",
+      "src": "/img/sevices.png",
       "title": "Aadhar Thumb Platform for all money services",
       "description": "Developed a secure biometric authentication website using fingerprint recognition, facilitating seamless financial transactions for individuals with Aadhaar Numbers. Improved security and reduced transaction times, providing a reliable and convenient financial services solution.",
       "link": "View the info",
@@ -181,7 +181,7 @@
     },
     {
       "id": "3",
-      "src": "/img/placeholder-image-2.png",
+      "src": "/img/game1.jpg",
       "title": "Memory Master: Java-based Multi-Level Memory Game",
       "description": "Designed and implemented a Java-based Memory game with multiple levels in a Software Design course, showcasing expertise in Java, object-oriented design, and GUI development using Swing/JavaFX.",
       "link": "View in Github",
@@ -189,7 +189,7 @@
     },
     {
       "id": "4",
-      "src": "/img/placeholder-image.png",
+      "src": "/img/car.jpg",
       "title": "Tesla Automatic Driver Assistance (ADAS)",
       "description": "Analyzes ADAS and ML independently and then relates which ML technique is applicable to what ADAS component and why. The paper gives a good grasp of the current state-of-the-art. Sample works in supervised, unsupervised, deep, and reinforcement learning are presented; their strengths and rooms for improvements are also discussed. This forms part of the basics in understanding autonomous vehicle. This work is a contribution to the ongoing research in ML aimed at reducing road traffic accidents and fatalities and the invocation of safe driving.",
       "link": "View the pdf",
