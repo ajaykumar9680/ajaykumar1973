@@ -23,14 +23,6 @@ function WorkExperience() {
           </ul>
         </div>
 
-        <div className="job">
-          <h3 className="job-title">AWS Cloud Virtual Internship offered by AICTE</h3>
-          <p className="job-duration">Oct 2021 – Dec 2021</p>
-          <ul className="job-responsibilities">
-            <li>Learned about a new AWS service and used it to solve a real-world problem.</li>
-            <li>Built a cloud-based application that uses multiple AWS services.</li>
-          </ul>
-        </div>
       </div>
     </section>
   );

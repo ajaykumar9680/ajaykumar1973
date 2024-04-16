@@ -8,11 +8,11 @@ const HeroSection = () => {
         <div className="hero-section-content">
           <p className="section-title">Hey, I'm Ajay Kumar Medikonda</p>
           <h1 className="hero-section-title">
-            <span className="hero-section-title-color">Graduate Student in Saint Louis University</span> <br />
+            <span className="hero-section-title-color">Master's Student in Saint Louis University</span> <br />
             {/* Developer */}
           </h1>
           <p className="hero-section-description">
-            Developer
+            Looking for Part-time/Full-time positions in Tech companies.
           </p>
         </div>
         <a href="#Contact" className="btn btn-primary">Get In Touch</a>

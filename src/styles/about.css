@@ -20,7 +20,7 @@
 }
 
 .about-section-content-box {
-  background-image: url('../assets/img/3d4.avif');
+  
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -59,51 +59,52 @@
 }
 
 .about-section-row p {
-  color:rgb(0,0,0);
-  font-size: 0.9em;
+  color:rgb(0,0,0,1.0);
+  font-size: 1.0em;
   margin: 10px;
+  text-align: justify;
   /*font-style: italic;*/
 }
 
 /* Specific background colors for statements */
 
 .about-section-column-1 .about-section-row:nth-child(2) {
-  background-color: rgb(255,153,153); /* Blue */
+  background-color: rgb(255,153,153,0.8); /* Blue */
 }
 .about-section-column-1 .about-section-row:nth-child(3) {
-  background-color: rgb(255,255,153); /* Yellow */
+  background-color: rgb(255,255,153,0.8); /* Yellow */
 }
 
 .about-section-column-1 .about-section-row:nth-child(4) {
-  background-color: rgb(153,255,153); /* Blue */
+  background-color: rgb(153,255,153,0.8); /* Blue */
 }
 .about-section-column-1 .about-section-row:nth-child(5) {
-  background-color: rgb(153,204,255); /* Yellow */
+  background-color: rgb(153,204,255,0.8); /* Yellow */
 }
 
 .about-section-column-1 .about-section-row:nth-child(6) {
-  background-color: rgb(204,153,255); /* Blue */
+  background-color: rgb(204,153,255,0.8); /* Blue */
 }
 .about-section-column-1 .about-section-row:nth-child(7) {
-  background-color: rgb(255,153,204); /* Yellow */
+  background-color: rgb(255,153,204,0.8); /* Yellow */
 }
 .about-section-column-1 .about-section-row:nth-child(8) {
-  background-color: rgb(153,255,255); /* Yellow */
+  background-color: rgb(153,255,255,0.8); /* Yellow */
 }
 
 .about-section-column-2 .about-section-row:nth-child(1) {
-  background-color: rgb(255,204,153);
+  background-color: rgb(255,204,153,0.8);
 }
 
 .about-section-column-2 .about-section-row:nth-child(2) {
-  background-color: rgb(153,255,204);
+  background-color: rgb(153,255,204,0.8);
 }
 .about-section-column-2 .about-section-row:nth-child(3) {
-  background-color: rgb(204,255,204);
+  background-color: rgb(204,255,204,0.8);
 }
 
 .about-section-column-2 .about-section-row:nth-child(4) {
-  background-color: rgb(255,204,204);
+  background-color: rgb(255,204,204,0.8);
 }
 
 

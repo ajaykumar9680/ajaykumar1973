@@ -35,13 +35,13 @@
 .honors-awards-list {
   /*background-color: #60f525;  Add background color to each job entry */
    /* Add padding to each job entry */
-   background: rgb(65, 129, 139);
+   background: rgba(245, 54, 210, 0.5);
   border-radius: 64px; /* Add border radius */
   align-items: center; /* Center items horizontally */
-  text-align: center;
+  
   margin-top: 10px;
-  font-size: 30px;
-  padding: 60px 50px;
+  font-size: 20px;
+  padding: 30px 50px;
 
 }
 

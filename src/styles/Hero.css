@@ -2,10 +2,10 @@
 .hero-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 133.333px 85.333px 133.333px;
-    align-items: center;
+    padding: 130.333px 55.333px 1.0px;
+    align-items: left;
     justify-content: space-between;
-    gap: 32px;
+    gap: 2px;
     background-color: var(--bg-shade);
     background-image: url('../assets/img/banner-bg.png');
     background-position: top center;
@@ -29,7 +29,7 @@
   }
   .hero-section-title {
     color: var(--heading-color);
-    font-size: 40.667px;
+    font-size: 30.667px;
     font-weight: 700;
     
     align-self: stretch;
@@ -38,15 +38,15 @@
     color: var(--primary);
   }
   .hero-section-description {
-    color: rgb(135, 15, 234);
-    font-size: 32px;
+    color: rgb(84, 15, 234);
+    font-size: 28px;
     font-weight: 40;
-    line-height: 2dvb;
+    
   }
   .hero-section-img {
     border-radius: 30px; /* Adjust the border-radius value to control the curve */
     overflow: hidden; /* Clip the image to the rounded borders */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box-shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a box-shadow for depth */
     height: auto;
   }
   .hero-section-img > img {
@@ -66,6 +66,6 @@
       transform: scale(0.3); /* Initial position */
     }
     100% {
-      transform: scale(1); /* Final position (adjust distance as needed) */
+      transform: scale(0.8); /* Final position (adjust distance as needed) */
     }
   }
